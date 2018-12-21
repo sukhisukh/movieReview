@@ -1,0 +1,59 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Sukhada Assignment5</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/movie.css">
+        <script src="js/main.js" async ></script>
+        <script src="js/vendor/picturefill.min.js" async ></script>
+    </head>
+    <body>
+        <section class="container" itemscope itemtype="https://schema.org/Movie"> 
+            <div class="column1">
+                <div id="movieInfo" class="movieInfo">
+                    <p><span class="type">Starring:</span><span itemprop="actor"> Brad Pitt</span>, <span itemprop="actor">Christian Bale</span>, <span itemprop="actor">Hamish Linklater</span>, <span itemprop="actor">John Magaro</span>, <span itemprop="actor">Melissa Leo</span>, <span itemprop="actor">Rafe Spall</span>, <span itemprop="actor">Ryan Gosling</span>, <span itemprop="actor">Steve Carell</span></p>
+                    <p><span class="type">Directed By:</span>     <span itemprop="director">Adam McKay</span></p>
+                    <p><span class="type">Written By:</span>  Michael Lewis, Adam McKay, Charles Randolph</p>
+                    <p><span class="type">Paramount Pictures - <a>Official Site</a></span></p>
+                </div>
+                <div class="movieImg">
+                    <img src="img/photo2.jpg" />
+                </div>
+            </div>
+            <div class="column2">
+                <div class="videoDisplay">
+                    <video id="mainVideo" poster="img/photo3.jpg" itemprop="trailer">
+                        <source src="video/TheBigShort.ogv" type="video/ogg"></source>
+                        <source src="video/TheBigShort.webm" type="video/webm"></source>
+                        <source src="video/TheBigShort.mp4" type="video/mp4"></source>
+                    </video>
+                    <ul>
+                        <li><button id="Play">Play</button></li>
+                        <li><button id="Pause">Pause</button></li>
+                        <li><progress id="Progress" value = 0></progress></li>
+                        <li><input id="Volume" type="range"></input></li>
+                    </ul>
+                </div>
+                <div class="sub-column">
+                    <div class="sub-column1">
+                        <p itemprop="review">Writer/director Adam McKay joins forces with Paramount Pictures and Plan B Entertainment to adapt Michael Lewis' best-seller The Big Short: Inside the Doomsday Machine, which centers on the housing a credit bubble of the 2000s.</p>
+                    </div>
+                    <div class="sub-column2">
+                        <img id="poster" src="img/POSTER3.jpg" />
+                    </div>
+                </div>
+            </div>
+            <div class="column3">
+                <div id="movieImg" class="movieImg">
+                    <img src="img/photo6.jpeg" />
+                    <img src="img/photo4.jpg" />
+                </div>
+            </div>
+        </section>
+    </body>
+    
+</html>
